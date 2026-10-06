@@ -41,7 +41,7 @@ function App() {
     <div className="min-h-screen overflow-x-hidden bg-zinc-950 text-zinc-100">
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-zinc-950/75 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8">
-          <button onClick={() => go('home')} className="text-lg font-black tracking-tight">J<span className="text-zinc-500">.</span></button>
+          <button onClick={() => go('home')} className="text-lg font-black tracking-tight">Jonathan Lomboy<span className="text-zinc-500">.</span></button>
           <div className="hidden items-center gap-8 text-sm text-zinc-400 md:flex">
             {['home','about','skills','projects','contact'].map((id) => (
               <button key={id} onClick={() => go(id)} className="capitalize transition hover:text-white">{id}</button>
