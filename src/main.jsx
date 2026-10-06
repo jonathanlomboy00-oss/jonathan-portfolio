@@ -57,9 +57,9 @@ function App() {
       </header>
 
       <main>
-        <section id="home" className="grid-bg relative flex min-h-screen items-center px-5 pt-24 lg:px-8">
+        <section id="home" className="grid-bg relative flex min-h-screen items-start px-5 pt-24 lg:px-8">
           <div className="absolute left-1/2 top-24 h-72 w-72 -translate-x-1/2 rounded-full bg-white/5 blur-3xl" />
-          <div className="mx-auto grid max-w-6xl items-center gap-12 py-20 md:grid-cols-[1.25fr_.75fr]">
+          <div className="mx-auto grid max-w-6xl items-center gap-12 py-0 md:grid-cols-[1.25fr_.75fr]">
             <div>
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-medium text-zinc-300">
                 <Sparkles size={14}/> Building. Learning. Improving.
