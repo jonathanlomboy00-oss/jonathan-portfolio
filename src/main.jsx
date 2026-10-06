@@ -130,7 +130,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="border-t border-white/10 px-5 py-7 lg:px-8"><div className="mx-auto flex max-w-6xl flex-col justify-between gap-3 text-sm text-zinc-600 sm:flex-row"><span>© {new Date().getFullYear()} Jonathan. Built with React + Tailwind CSS.</span><span>Keep learning. Keep building.</span></div></footer>
+      <footer className="border-t border-white/10 px-5 py-7 lg:px-8"><div className="mx-auto flex max-w-6xl flex-col justify-between gap-3 text-sm text-zinc-600 sm:flex-row"><span>© {new Date().getFullYear()}</span><span>Keep learning. Keep building.</span></div></footer>
     </div>
   )
 }
