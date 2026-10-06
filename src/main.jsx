@@ -1,7 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-  ArrowUpRight, Code2, Github, Linkedin, Mail, Menu, X, Gamepad2,
+  ArrowUpRight, Code2, Mail, Menu, X, Gamepad2,
   ShieldCheck, Terminal, Sparkles, ChevronDown
 } from 'lucide-react'
 import './index.css'
@@ -123,8 +123,8 @@ function App() {
             <p className="mx-auto mt-5 max-w-xl text-zinc-500">Have a project, collaboration, or opportunity in mind? Update the links below with your real accounts.</p>
             <div className="mt-9 flex flex-wrap justify-center gap-3">
               <a href="mailto:jonathanlomboy41@gmail.com" className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 font-semibold text-zinc-950 hover:bg-zinc-200"><Mail size={17}/> Email Me</a>
-              <a href="https://github.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 font-semibold hover:bg-white/5"><Github size={17}/> GitHub</a>
-              <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 font-semibold hover:bg-white/5"><Linkedin size={17}/> LinkedIn</a>
+              <a href="https://github.com/jonathanlomboy00-oss" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 font-semibold hover:bg-white/5">GitHub</a>
+              <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 font-semibold hover:bg-white/5">LinkedIn</a>
             </div>
           </div>
         </section>
